@@ -3,7 +3,7 @@
   "description": "nothing yet",
   "version": "1.1.2",
   "dependencies": {
-    "html-to-text": "^4.0.0",
+    "html-to-text": "^5.1.1",
     "nodemailer": "^6.2.1"
   },
   "engines": {
@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@edenjs/eslint-config-eden": "^2.0.14",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4"

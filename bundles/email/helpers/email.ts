@@ -1,20 +1,16 @@
 // Require dependencies
-const fs         = require('fs');
-const uuid       = require('uuid');
-const nodemailer = require('nodemailer');
-const htmlToText = require('html-to-text');
-
-// Require local class dependencies
-const Helper = require('helper');
+import fs          from 'fs';
+import view        from 'lib/eden/view';
+import uuid        from 'uuid';
+import config      from 'config';
+import Helper      from 'helper';
+import nodemailer  from 'nodemailer';
+import htmlToText  from 'html-to-text';
 
 // Require models
 const File  = model('file');
 const Email = model('email');
 const Image = model('image');
-
-// Require local dependencies
-const config = require('config');
-const view   = require('lib/eden/view');
 
 /**
  * Create Email Helper class
@@ -186,4 +182,4 @@ class EmailHelper extends Helper {
  *
  * @return {EmailHelper}
  */
-module.exports = new EmailHelper();
+export default new EmailHelper();
